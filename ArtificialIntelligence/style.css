@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 100vh;
+    background-color: #090F1C;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+/* ===== HEADER MENU ===== */
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+
+.header__menu .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu .logo p{
+    color: #3A68B8;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin:5px 0 0 10px;
+}
+
+.header__menu .menu{
+    display: flex;
+    margin-left: -150px;
+}
+
+.header__menu .menu a{
+    margin: 0 0 0 30px;
+    transition: all .2s ease-in-out;
+}
+
+.header__menu .menu a:hover{
+    color: #3A68B8;
+}
+
+.header__menu .signIn{
+    background-color: #3A68B8;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: all .2s ease-in-out;
+}
+
+.header__menu .signIn:hover{
+    background-color: #0c3c8f;
+}
+
+
+/* ===== HEADER MAIN ===== */
+
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:30px 0;
+}
+
+
+.header__main .right img{
+    margin-right: -120px;
+}
+
+.header__main .left .heading{
+    color: #3A68B8;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.header__main .left .title{
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: 600;
+    color: white;
+    margin:20px 0;
+}
+
+.header__main .left .text{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.76);
+    margin: 35px 0;
+    width: 507px;
+}
+
+
+.header__main .left .button a{
+    background-color: #3A68B8;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin:0 20px 0 0 ;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.header__main .left .button a:hover{
+    background-color: #0c3c8f;
+}
+
+.header__main .left .button {
+    display: flex;
+}
+
+.header__main .left .button #video{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
