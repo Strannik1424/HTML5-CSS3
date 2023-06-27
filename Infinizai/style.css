@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+ul,
+ol{
+    list-style: none;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* =====  HEADER  ===== */
+
+.header{
+    background-image: url('./img/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.header .row{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header ITEM */
+
+.header__item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding:10px 0;
+    margin: 40px 0 200px 0;
+}
+
+.header__item .menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__item .menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.header__item .menu a:hover{
+    color: yellow;
+}
+
+.header__item .contactUs{
+    color: white;
+    text-decoration: none;
+    border:1px solid #fff;
+    padding: 15px 20px;
+    transition: all .2s ease-in-out;
+    margin:0 0 0px 20px;
+}
+
+.header__item .contactUs:hover{
+    background-color: #fff;
+    color: #53B6FE;
+}
+
+/* header Main */
+
+.header__main{
+    display: flex;
+    position: relative;
+}
+
+.header__main .links{
+    display: flex;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 250px;
+    left: -110px;
+}
+
+.header__main .links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: gray;
+}
+
+.header__main .links a:hover{
+    color: yellow;
+}
+
+.header__main .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__main .item{
+    color: #53B6FE;
+}
+
+.header__main .title{
+    color: white;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.header__main .description{
+    color: gray;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 30px 0;
+}
+
+.header__main .explore{
+    color: white;
+    background-color: #53B6FE;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.header__main .view{
+    color: gray;
+    text-decoration: none;
+    margin: 0 0 0 50px;
+}
+
+.header__main .webflow{
+    position: absolute;
+    right: 100px;
+    top: 450px;
+}
+
+.header__main .webflow a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    background-color: white;
+}
